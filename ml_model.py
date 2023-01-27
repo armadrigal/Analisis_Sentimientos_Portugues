@@ -1,6 +1,7 @@
 import unicodedata
 import string
 import numpy as np
+import sklean
 from gensim.models import Word2Vec
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow import keras
